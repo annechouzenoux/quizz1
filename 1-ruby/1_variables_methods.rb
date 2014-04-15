@@ -14,7 +14,7 @@ name = "Poney"
 =end
 
 #2. Built-in classes
-# Définissez des variables stockant tous les types de données standard que vous connaissez.
+# Définissez des variables stockant tous les types de données que vous connaissez (Fixnum, String, Array, Hash).
 begin
   
   
@@ -23,7 +23,8 @@ end
 
 #3. Comment permuter les 2 variables a et b ?
 #3.1. En utilisant une troisième variable intermédiaire
-#3.2. En allant voir du côté des affectations multiples :)
+#3.2. [OPTIONNEL] En allant voir du côté des affectations multiples :)
+#Hint: comment permuter le contenu de 2 verres d'eau ???
 begin
 
   a = 1
@@ -39,16 +40,16 @@ end
 =end
 
 #5. Définissez et appelez 3 méthodes..
-#.. qui prennent des argument différents
+#.. qui prennent des arguments différents
 #.. une des 3 ne doit prendre aucun argument
-#.. une des trois doit prendre un argument facultatif
 #.. chacune doit renvoyer un type de données différent (String, Hash, Fixnum )
+#.. [OPTIONNEL] définissez un 4ème méthode qui prend un argument facultatif
 begin
 
 
 end
 
-#5. OPTIONNEL: Refactorez avec des sous-méthodes (démerdez-vous)
+#5. [VERY VERY OPTIONNEL]: Refactorez ce code en le re-découpant en plusieurs méthodes (démerdez-vous)
 begin
   
   def javanize(sentence)
